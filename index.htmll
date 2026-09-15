@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Game Top Up Center</title>
+
+<style>
+
+*{
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+margin:0;
+background:#070b17;
+color:white;
+}
+
+
+header{
+padding:35px 20px;
+text-align:center;
+background:linear-gradient(135deg,#7c3aed,#2563eb);
+}
+
+
+header h1{
+font-size:32px;
+}
+
+
+.banner{
+margin:20px;
+height:200px;
+border-radius:20px;
+background:
+linear-gradient(90deg,rgba(0,0,0,.5),rgba(0,0,0,.2)),
+url("mlbb-banner.jpg");
+
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+font-weight:bold;
+}
+
+
+
+.section-title{
+font-size:26px;
+margin:25px;
+color:#38bdf8;
+}
+
+
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+
+
+.card{
+
+width:280px;
+background:#111827;
+border-radius:20px;
+padding:20px;
+text-align:center;
+box-shadow:0 0 20px #2563eb;
+
+}
+
+
+
+.card img{
+
+width:100px;
+height:100px;
+object-fit:contain;
+
+}
+
+
+
+.card h2{
+
+margin:10px;
+
+}
+
+
+
+.price{
+
+font-size:22px;
+color:#facc15;
+font-weight:bold;
+
+}
+
+
+
+.buy{
+
+margin-top:15px;
+padding:12px 35px;
+border:none;
+border-radius:30px;
+background:linear-gradient(90deg,#22c55e,#16a34a);
+color:white;
+font-size:16px;
+cursor:pointer;
+
+}
+
+
+.buy:hover{
+
+transform:scale(1.05);
+
+}
+
+
+.badge{
+
+background:#ef4444;
+padding:5px 15px;
+border-radius:20px;
+
+}
+
+
+
+footer{
+
+text-align:center;
+padding:30px;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>🎮 GAME TOP UP CENTER</h1>
+
+<p>MLBB • PUBG • FAST DELIVERY</p>
+
+</header>
+
+
+
+<div class="banner">
+
+🔥 MOBILE LEGENDS TOP UP 🔥
+
+</div>
+
+
+
+<h2 class="section-title">
+💎 Mobile Legends Diamond
+</h2>
+
+
+
+<div class="products">
+
+
+
+<div class="card">
+
+<span class="badge">HOT</span>
+
+<br>
+
+<img src="diamond.png">
+
+<h2>86 Diamond</h2>
+
+<p class="price">5,600 MMK</p>
+
+<button class="buy">
+BUY NOW
+</button>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="diamond.png">
+
+<h2>172 Diamond</h2>
+
+<p class="price">11,000 MMK</p>
+
+<button class="buy">
+BUY NOW
+</button>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="diamond.png">
+
+<h2>Weekly Pass</h2>
+
+<p class="price">6,800 MMK</p>
+
+<button class="buy">
+BUY NOW
+</button>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<h2 class="section-title">
+🟡 PUBG UC
+</h2>
+
+
+
+
+<div class="products">
+
+
+<div class="card">
+
+<img src="uc.png">
+
+<h2>60 UC</h2>
+
+<p class="price">6,300 MMK</p>
+
+<button class="buy">
+BUY NOW
+</button>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="uc.png">
+
+<h2>660 UC</h2>
+
+<p class="price">42,000 MMK</p>
+
+<button class="buy">
+BUY NOW
+</button>
+
+</div>
+
+
+</div>
+
+
+
+
+<footer>
+
+© 2026 Game Top Up Center
+
+</footer>
+
+
+</body>
+  </html>
